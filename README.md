@@ -3,10 +3,10 @@
 Mafia is a popular party game that requires one to think, manipulate, and deceive others in
 order to win. Since the pandemic, it has become rather difficult for people to host parties; hence
 for this assignment, you are required to develop a mafia game simulator. In this assignment,
-
 you must use OOP concepts, especially inheritance and polymorphism, demonstration of object
 comparison, and object equality check.
-Rules of the game:
+
+### Rules of the game:
 Plot: There is a village of N players. A player can be either a commoner, a detective, a healer,
 or a mafia. A commoner only knows that he is a commoner. A detective knows all the other
 detectives. A mafia knows all the other Mafia players. A healer knows all other healers in the
@@ -18,7 +18,8 @@ brought back to life. Mafias cannot kill themselves.
 The objective for all other players(except the mafias) is to eliminate the mafias through a vote
 out(as the Mafias cannot be killed). Therefore, by using special powers of detectives and
 healers, they are required to save themselves and vote out the Mafias.
-Role of different type of players:
+
+### Role of different type of players:
 1. Mafia: To kill all other players to achieve a 1:1 ratio.
 2. Detective: They can randomly test one of the players (except detective) to test whether
 the player is mafia or not. If they correctly identify a mafia, the caught mafia will be voted
